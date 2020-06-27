@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+       <ul>
+           <li><a href='#'>Gmail</a></li>
+           <li><a href='#'>Home</a></li>
+       </ul>
+       <ul class=list1>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Store</a></li>
+       </ul>
+    <body class="body">
+           <img class="logo" src="img/googlelogo_color_272x92dp.png" alt="Google logo">
+           <div>
+             <div><input class="search" type="text" placeholder="Search Google or type a URL"></div>
+             <div class="button">
+                 <button class="btn1" type="submit">Google Search</button>
+                 <button class="btn2" type="submit">I'm Feeling Lucky</button>
+            </div>
+            <div><p class="offer1">Google offered in: <a href="#">English</a></p></div>
+        <footer class="footer">
+             <ul>
+                 <li><a href="#">Advertising</a></li>
+                 <li><a href="#">Business</a></li>
+                 <li><a href="#">How Search Works</a></li>
+             </ul>
+        </footer>
+    </body>
+</html>
+
+
+<style>
+    .search{
+        width: 1000px;
+        height: 40px;
+        margin: 4px;
+        padding: 8px;
+        border: 1px solid grey;
+        border-radius: 25px;
+        font-size: 20px;
+    }
+
+    .btn1{
+        height: 40px;
+        width: auto;
+        background: #f2f2f2;
+        border: none;
+        cursor: pointer;
+        margin: 4px;
+    }
+
+    .btn2{
+        height: 40px;
+        width: auto;
+        background: #f2f2f2;
+        border: none;
+        cursor: pointer;
+        margin: 4px;
+        }
+
+    .body{
+        text-align: center;
+    }
+
+    .logo{
+        margin-top: 250px;
+        width: 500px;
+    }
+
+
+    .btn1:hover , .btn2:hover {
+        color: #373733;
+        background: #d3d3d3;
+        border: .5px solid lightgrey;
+    }
+
+    ul li {
+        list-style-type: none;
+        display: inline;
+        float: right;
+        width: 150px;
+        margin-left: -70px;
+    }
+    
+       li a {
+        text-decoration: none;
+        color: black;
+        line-height: 50px;
+        display: block;
+    }
+
+    li a:hover {
+        color: grey;
+        text-decoration: underline;
+    }
+
+    .list1 li {
+        float: left;
+    }
+    
+    .footer {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .footer li {
+        margin-left: 0px;
+    }
+</style>
